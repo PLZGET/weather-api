@@ -1,0 +1,39 @@
+### 전체 날씨 조회
+GET http://localhost:8080/weathers
+
+### 특정 날씨 조회
+GET http://localhost:8080/weathers/1000
+
+### 날씨 등록 (insert)
+POST http://localhost:8080/weathers
+Content-Type: application/json
+
+{
+  "region": "서울",
+  "weather": "추움",
+  "temperature": -209
+}
+
+### 날씨 등록 (insert) (필수 필드가 누락된 경우)
+POST http://localhost:8080/weathers
+Content-Type: application/json
+
+{
+  "region": "서울"
+}
+
+### 기존 회원 수정 (update)
+PUT http://localhost:8080/weathers/31
+Content-Type: application/json
+
+{
+  "region": "서울",
+  "weather": "비옴",
+  "temperature": 13
+}
+
+### 날씨 데이터 삭제
+DELETE http://localhost:8080/weathers/31
+
+### 그냥 테스트
+GET http://localhost:8080/weathers/test

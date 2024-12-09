@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: inspien-weather-api
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/weather_db
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    root: info # 로그 출력 레벨 설정
+  file:
+    name: logs/weather-api.log
+  logback:
+    rollingpolicy: # 로그 파일 크기와 롤링 설정
+      max-file-size: 10MB
+      max-history: 10

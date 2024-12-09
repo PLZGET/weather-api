@@ -1,0 +1,162 @@
+2024-12-09T00:09:17.035+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : Starting InspienWeatherApiApplication using Java 17.0.9 with PID 6728 (C:\apple\inspien-과제전형\inspien-weather-api\build\classes\java\main started by niko3 in C:\apple\inspien-과제전형\inspien-weather-api)
+2024-12-09T00:09:17.042+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T00:09:17.104+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-09T00:09:17.104+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-09T00:09:17.975+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T00:09:18.063+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2024-12-09T00:09:18.721+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T00:09:18.734+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T00:09:18.734+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09T00:09:18.792+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T00:09:18.793+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1687 ms
+2024-12-09T00:09:18.924+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T00:09:19.004+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-09T00:09:19.043+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T00:09:19.346+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T00:09:19.376+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T00:09:19.694+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d3ef68a
+2024-12-09T00:09:19.696+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T00:09:19.784+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-09T00:09:20.637+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T00:09:20.686+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T00:09:20.920+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T00:09:21.390+09:00  WARN 6728 --- [inspien-weather-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T00:09:21.729+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-09T00:09:21.765+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T00:09:21.773+09:00  INFO 6728 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : Started InspienWeatherApiApplication in 5.264 seconds (process running for 6.051)
+2024-12-09T00:09:48.369+09:00  INFO 6728 --- [inspien-weather-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-09T00:09:48.769+09:00  INFO 6728 --- [inspien-weather-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-09T00:09:48.773+09:00  INFO 6728 --- [inspien-weather-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T00:09:48.776+09:00  INFO 6728 --- [inspien-weather-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T00:09:48.784+09:00  INFO 6728 --- [inspien-weather-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-09T00:09:51.483+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : Starting InspienWeatherApiApplication using Java 17.0.9 with PID 25404 (C:\apple\inspien-과제전형\inspien-weather-api\build\classes\java\main started by niko3 in C:\apple\inspien-과제전형\inspien-weather-api)
+2024-12-09T00:09:51.486+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T00:09:51.530+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-09T00:09:51.530+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-09T00:09:52.149+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T00:09:52.204+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2024-12-09T00:09:52.676+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T00:09:52.687+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T00:09:52.688+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09T00:09:52.741+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T00:09:52.742+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1212 ms
+2024-12-09T00:09:52.872+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T00:09:52.928+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-09T00:09:52.962+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T00:09:53.223+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T00:09:53.251+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T00:09:53.540+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32b90bee
+2024-12-09T00:09:53.542+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T00:09:53.624+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-09T00:09:54.471+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T00:09:54.527+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T00:09:54.729+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T00:09:55.131+09:00  WARN 25404 --- [inspien-weather-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T00:09:55.409+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-09T00:09:55.439+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T00:09:55.447+09:00  INFO 25404 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : Started InspienWeatherApiApplication in 4.395 seconds (process running for 4.917)
+2024-12-09T00:10:46.614+09:00  INFO 25404 --- [inspien-weather-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-09T00:10:47.032+09:00  INFO 25404 --- [inspien-weather-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-09T00:10:47.035+09:00  INFO 25404 --- [inspien-weather-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T00:10:47.038+09:00  INFO 25404 --- [inspien-weather-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T00:10:47.044+09:00  INFO 25404 --- [inspien-weather-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-09T00:12:37.028+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : Starting InspienWeatherApiApplication using Java 17.0.9 with PID 25000 (C:\apple\inspien-과제전형\inspien-weather-api\build\classes\java\main started by niko3 in C:\apple\inspien-과제전형\inspien-weather-api)
+2024-12-09T00:12:37.031+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T00:12:37.082+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-09T00:12:37.082+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-09T00:12:37.897+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T00:12:37.982+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+2024-12-09T00:12:38.549+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T00:12:38.560+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T00:12:38.561+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09T00:12:38.607+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T00:12:38.608+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1525 ms
+2024-12-09T00:12:38.731+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T00:12:38.812+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-09T00:12:38.852+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T00:12:39.177+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T00:12:39.211+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T00:12:39.445+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bc1226c
+2024-12-09T00:12:39.448+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T00:12:39.519+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-09T00:12:40.331+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T00:12:40.401+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T00:12:40.613+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T00:12:41.009+09:00  WARN 25000 --- [inspien-weather-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T00:12:41.296+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-09T00:12:41.331+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T00:12:41.338+09:00  INFO 25000 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : Started InspienWeatherApiApplication in 4.846 seconds (process running for 5.486)
+2024-12-09T00:20:31.565+09:00  INFO 25000 --- [inspien-weather-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-09T00:20:31.985+09:00  INFO 25000 --- [inspien-weather-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-09T00:20:31.989+09:00  INFO 25000 --- [inspien-weather-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T00:20:31.993+09:00  INFO 25000 --- [inspien-weather-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T00:20:32.001+09:00  INFO 25000 --- [inspien-weather-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-09T00:52:06.947+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : Starting InspienWeatherApiApplication using Java 17.0.9 with PID 16720 (C:\apple\inspien-과제전형\inspien-weather-api\build\classes\java\main started by niko3 in C:\apple\inspien-과제전형\inspien-weather-api)
+2024-12-09T00:52:06.950+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-09T00:52:06.998+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-09T00:52:06.999+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-09T00:52:07.693+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-09T00:52:07.748+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2024-12-09T00:52:08.253+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-09T00:52:08.266+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-09T00:52:08.266+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-09T00:52:08.314+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-09T00:52:08.314+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1315 ms
+2024-12-09T00:52:08.442+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-09T00:52:08.511+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-09T00:52:08.550+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-09T00:52:08.833+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-09T00:52:08.864+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-09T00:52:09.198+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4209c536
+2024-12-09T00:52:09.200+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-09T00:52:09.300+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.36
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-09T00:52:10.158+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-09T00:52:10.217+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T00:52:10.449+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-09T00:52:10.925+09:00  WARN 16720 --- [inspien-weather-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-09T00:52:11.247+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-09T00:52:11.286+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-09T00:52:11.293+09:00  INFO 16720 --- [inspien-weather-api] [restartedMain] c.a.i.InspienWeatherApiApplication       : Started InspienWeatherApiApplication in 4.837 seconds (process running for 5.54)
+2024-12-09T00:52:13.521+09:00  INFO 16720 --- [inspien-weather-api] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-09T00:52:13.522+09:00  INFO 16720 --- [inspien-weather-api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-09T00:52:13.523+09:00  INFO 16720 --- [inspien-weather-api] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-09T00:52:19.252+09:00  WARN 16720 --- [inspien-weather-api] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "test"]
+2024-12-09T00:56:00.677+09:00  WARN 16720 --- [inspien-weather-api] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.ac.inspienweatherapi.controller.WeatherNotFoundException: 해당 날씨 찾을 수 없음]
+2024-12-09T01:09:09.713+09:00  WARN 16720 --- [inspien-weather-api] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.ac.inspienweatherapi.dto.WeatherResponseDTO> com.ac.inspienweatherapi.controller.WeatherController.updateWeather(java.lang.Long,com.ac.inspienweatherapi.dto.WeatherRequestDTO) with 2 errors: [Field error in object 'weatherRequestDTO' on field 'weather': rejected value [null]; codes [NotNull.weatherRequestDTO.weather,NotNull.weather,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [weatherRequestDTO.weather,weather]; arguments []; default message [weather]]; default message [날씨는 필수 값입니다.]] [Field error in object 'weatherRequestDTO' on field 'region': rejected value [null]; codes [NotNull.weatherRequestDTO.region,NotNull.region,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [weatherRequestDTO.region,region]; arguments []; default message [region]]; default message [지역은 필수 값입니다.]] ]
+2024-12-09T01:18:37.685+09:00  WARN 16720 --- [inspien-weather-api] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.ac.inspienweatherapi.controller.WeatherNotFoundException: 해당 날씨 찾을 수 없음]
+2024-12-09T01:28:15.855+09:00  WARN 16720 --- [inspien-weather-api] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.ac.inspienweatherapi.dto.WeatherResponseDTO> com.ac.inspienweatherapi.controller.WeatherController.createWeather(com.ac.inspienweatherapi.dto.WeatherRequestDTO) with 2 errors: [Field error in object 'weatherRequestDTO' on field 'temperature': rejected value [null]; codes [NotNull.weatherRequestDTO.temperature,NotNull.temperature,NotNull.java.lang.Double,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [weatherRequestDTO.temperature,temperature]; arguments []; default message [temperature]]; default message [온도는 필수 값입니다.]] [Field error in object 'weatherRequestDTO' on field 'weather': rejected value [null]; codes [NotNull.weatherRequestDTO.weather,NotNull.weather,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [weatherRequestDTO.weather,weather]; arguments []; default message [weather]]; default message [날씨는 필수 값입니다.]] ]
+2024-12-09T04:08:48.910+09:00  WARN 16720 --- [inspien-weather-api] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m37s82ms92µs).
+2024-12-09T11:26:03.447+09:00  WARN 16720 --- [inspien-weather-api] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h17m18s187ms533µs900ns).
+2024-12-09T11:27:41.162+09:00  INFO 16720 --- [inspien-weather-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-09T11:27:41.589+09:00  INFO 16720 --- [inspien-weather-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-09T11:27:41.612+09:00  INFO 16720 --- [inspien-weather-api] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-09T11:27:41.647+09:00  INFO 16720 --- [inspien-weather-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-09T11:27:41.654+09:00  INFO 16720 --- [inspien-weather-api] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
